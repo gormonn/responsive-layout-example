@@ -1,0 +1,28 @@
+$white: #FFFFFF;
+
+$textPrimary: #37454A;
+$icons: rgba($textPrimary, 0.4);
+$textPrimary60: rgba($textPrimary, 0.6);
+$textParagraph: rgba($textPrimary, 0.9);
+
+$stroke: #DFDFDF;
+
+$bg: $white;
+$bgGray: #F4F4F4;
+
+$gradientFrom: #6CB644;
+$gradientTo: #82CA2C;
+@mixin gradient {
+  linear-gradient(90deg, $gradientFrom 0%, $gradientTo 100%);
+}
+
+$red: #E34C4C;
+
+$greenTextPrimary: #76B72A;
+$greenTextSecondary: #76B926;
+$greenDark: #62A53C;
+$greenNav: #6EB744;
+$articleBg: #EDEEF0;
+$fb: #3B5999; // todo: remove?
+$vk: #4B729F; // todo: remove?
+
